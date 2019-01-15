@@ -1,0 +1,30 @@
+body {
+    padding-top: 10px;
+}
+
+#player-1,
+#player-2,
+#status-area {
+    height: 225px;
+    width: 225px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 800px;
+    }
+}
