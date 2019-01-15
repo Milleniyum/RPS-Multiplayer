@@ -2,13 +2,42 @@ body {
     padding-top: 10px;
 }
 
+.title {
+    text-align: center;
+    background-color: lightblue;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.container {
+    text-align: center;
+}   
+
+.wrapper, .form-group {
+    display: inline-block;
+}
+
+#play-button, #send-button {
+    margin-bottom: 3px;
+}
+
 #player-1,
 #player-2,
 #status-area {
     height: 225px;
     width: 225px;
-    margin: 5px;
     border: 1px solid black;
+    display: inline-block;
+}
+
+#messages {
+    display: inline-block;
+    height: 200px;
+    width: 350px;
+    border: 1px solid black;
+}
+
+#message-input {
+    width: 270px;
 }
 
 @media (min-width: 576px) {

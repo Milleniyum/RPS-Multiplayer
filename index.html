@@ -18,26 +18,38 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">Name Input</div>
-            <div class="col-sm-4"></div>
-        </div>
+    <div>
+        <h1 class="title">Rock Paper Scissors</h1>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <div id="player-1"></div>
-            </div>
-            <div class="col-sm-4">
-                <div id="status-area"></div>
-            </div>
-            <div class="col-sm-4">
-                <div id="player-2"></div>
-            </div>
+        <div class="wrapper">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name-input" placeholder="Enter Your Name">
+                </div>
+                <button class="btn btn-primary" id="play-button">PLAY</button>
+            </form>
         </div>
+    </div>
 
+    <div class="container">
+        <div class="box" id="player-1"></div>
+        <div class="box" id="status-area"></div>
+        <div class="box" id="player-2"></div>
+    </div>
+
+    <div class="container">
+        <div id="messages"></div><br>
+        <div class="wrapper">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="message-input">
+                    </div>
+                    <button class="btn btn-primary" id="send-button">SEND</button>
+                </form>
+            </div>
+    </div>
+    
     </div>
     <!-- end container -->
 
